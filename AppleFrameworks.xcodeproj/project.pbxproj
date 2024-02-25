@@ -85,12 +85,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2965817C2B8B6224004DBDB9 /* New Group */ = {
+		2965817C2B8B6224004DBDB9 /* UiKit Component */ = {
 			isa = PBXGroup;
 			children = (
 				2950B9042B8A5FFC00329010 /* SafariView.swift */,
 			);
-			path = "New Group";
+			path = "UiKit Component";
 			sourceTree = "<group>";
 		};
 		298DF6C22B88959300AFCEA0 = {
@@ -116,7 +116,7 @@
 		298DF6CD2B88959300AFCEA0 /* AppleFrameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2965817C2B8B6224004DBDB9 /* New Group */,
+				2965817C2B8B6224004DBDB9 /* UiKit Component */,
 				29F5ACFC2B8B5E5000215741 /* Views */,
 				29F5ACFB2B8B5E4000215741 /* Model */,
 				29F5ACF92B8B5DF200215741 /* Screens */,
