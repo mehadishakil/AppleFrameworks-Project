@@ -31,8 +31,15 @@ struct FrameworkDetailView: View {
             Button{
                 isShowingSafariView = true
             }label: {
-                AFButton(title: "Learn More")
+//                AFButton(title: "Learn More")
+                Label("Learn More", systemImage: "book.fill")
             }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+//            .foregroundColor(.white)
+//            .buttonBorderShape(.roundedRectangle(radius: 12))
+            .tint(.red)
+            
             
         }
         .sheet(isPresented: $isShowingSafariView, content: {
