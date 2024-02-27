@@ -43,13 +43,13 @@
 /* Begin PBXFileReference section */
 		2950B9022B8A290400329010 /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
 		2950B9042B8A5FFC00329010 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
-		298DF6CB2B88959300AFCEA0 /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298DF6CB2B88959300AFCEA0 /* AppleFrameworks-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleFrameworks-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		298DF6CE2B88959300AFCEA0 /* AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksApp.swift; sourceTree = "<group>"; };
 		298DF6D22B88959500AFCEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298DF6D52B88959500AFCEA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		298DF6DB2B88959600AFCEA0 /* AppleFrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleFrameworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298DF6DB2B88959600AFCEA0 /* AppleFrameworks-ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleFrameworks-ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		298DF6DF2B88959600AFCEA0 /* AppleFrameworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksTests.swift; sourceTree = "<group>"; };
-		298DF6E52B88959600AFCEA0 /* AppleFrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleFrameworksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298DF6E52B88959600AFCEA0 /* AppleFrameworks-ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleFrameworks-ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		298DF6E92B88959600AFCEA0 /* AppleFrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksUITests.swift; sourceTree = "<group>"; };
 		298DF6EB2B88959600AFCEA0 /* AppleFrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		298DF6F82B88966100AFCEA0 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
@@ -106,9 +106,9 @@
 		298DF6CC2B88959300AFCEA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				298DF6CB2B88959300AFCEA0 /* AppleFrameworks.app */,
-				298DF6DB2B88959600AFCEA0 /* AppleFrameworksTests.xctest */,
-				298DF6E52B88959600AFCEA0 /* AppleFrameworksUITests.xctest */,
+				298DF6CB2B88959300AFCEA0 /* AppleFrameworks-List.app */,
+				298DF6DB2B88959600AFCEA0 /* AppleFrameworks-ListTests.xctest */,
+				298DF6E52B88959600AFCEA0 /* AppleFrameworks-ListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		298DF6CA2B88959300AFCEA0 /* AppleFrameworks */ = {
+		298DF6CA2B88959300AFCEA0 /* AppleFrameworks-List */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298DF6EF2B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks" */;
+			buildConfigurationList = 298DF6EF2B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks-List" */;
 			buildPhases = (
 				298DF6C72B88959300AFCEA0 /* Sources */,
 				298DF6C82B88959300AFCEA0 /* Frameworks */,
@@ -227,14 +227,14 @@
 			);
 			dependencies = (
 			);
-			name = AppleFrameworks;
+			name = "AppleFrameworks-List";
 			productName = AppleFrameworks;
-			productReference = 298DF6CB2B88959300AFCEA0 /* AppleFrameworks.app */;
+			productReference = 298DF6CB2B88959300AFCEA0 /* AppleFrameworks-List.app */;
 			productType = "com.apple.product-type.application";
 		};
-		298DF6DA2B88959600AFCEA0 /* AppleFrameworksTests */ = {
+		298DF6DA2B88959600AFCEA0 /* AppleFrameworks-ListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298DF6F22B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworksTests" */;
+			buildConfigurationList = 298DF6F22B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks-ListTests" */;
 			buildPhases = (
 				298DF6D72B88959600AFCEA0 /* Sources */,
 				298DF6D82B88959600AFCEA0 /* Frameworks */,
@@ -245,14 +245,14 @@
 			dependencies = (
 				298DF6DD2B88959600AFCEA0 /* PBXTargetDependency */,
 			);
-			name = AppleFrameworksTests;
+			name = "AppleFrameworks-ListTests";
 			productName = AppleFrameworksTests;
-			productReference = 298DF6DB2B88959600AFCEA0 /* AppleFrameworksTests.xctest */;
+			productReference = 298DF6DB2B88959600AFCEA0 /* AppleFrameworks-ListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		298DF6E42B88959600AFCEA0 /* AppleFrameworksUITests */ = {
+		298DF6E42B88959600AFCEA0 /* AppleFrameworks-ListUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298DF6F52B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworksUITests" */;
+			buildConfigurationList = 298DF6F52B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks-ListUITests" */;
 			buildPhases = (
 				298DF6E12B88959600AFCEA0 /* Sources */,
 				298DF6E22B88959600AFCEA0 /* Frameworks */,
@@ -263,9 +263,9 @@
 			dependencies = (
 				298DF6E72B88959600AFCEA0 /* PBXTargetDependency */,
 			);
-			name = AppleFrameworksUITests;
+			name = "AppleFrameworks-ListUITests";
 			productName = AppleFrameworksUITests;
-			productReference = 298DF6E52B88959600AFCEA0 /* AppleFrameworksUITests.xctest */;
+			productReference = 298DF6E52B88959600AFCEA0 /* AppleFrameworks-ListUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 298DF6C62B88959300AFCEA0 /* Build configuration list for PBXProject "AppleFrameworks" */;
+			buildConfigurationList = 298DF6C62B88959300AFCEA0 /* Build configuration list for PBXProject "AppleFrameworks-List" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -304,9 +304,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				298DF6CA2B88959300AFCEA0 /* AppleFrameworks */,
-				298DF6DA2B88959600AFCEA0 /* AppleFrameworksTests */,
-				298DF6E42B88959600AFCEA0 /* AppleFrameworksUITests */,
+				298DF6CA2B88959300AFCEA0 /* AppleFrameworks-List */,
+				298DF6DA2B88959600AFCEA0 /* AppleFrameworks-ListTests */,
+				298DF6E42B88959600AFCEA0 /* AppleFrameworks-ListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,12 +376,12 @@
 /* Begin PBXTargetDependency section */
 		298DF6DD2B88959600AFCEA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 298DF6CA2B88959300AFCEA0 /* AppleFrameworks */;
+			target = 298DF6CA2B88959300AFCEA0 /* AppleFrameworks-List */;
 			targetProxy = 298DF6DC2B88959600AFCEA0 /* PBXContainerItemProxy */;
 		};
 		298DF6E72B88959600AFCEA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 298DF6CA2B88959300AFCEA0 /* AppleFrameworks */;
+			target = 298DF6CA2B88959300AFCEA0 /* AppleFrameworks-List */;
 			targetProxy = 298DF6E62B88959600AFCEA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleFrameworks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleFrameworks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleFrameworks-List.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleFrameworks-List";
 			};
 			name = Debug;
 		};
@@ -591,7 +591,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleFrameworks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleFrameworks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleFrameworks-List.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleFrameworks-List";
 			};
 			name = Release;
 		};
@@ -632,7 +632,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		298DF6C62B88959300AFCEA0 /* Build configuration list for PBXProject "AppleFrameworks" */ = {
+		298DF6C62B88959300AFCEA0 /* Build configuration list for PBXProject "AppleFrameworks-List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				298DF6ED2B88959600AFCEA0 /* Debug */,
@@ -641,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298DF6EF2B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks" */ = {
+		298DF6EF2B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks-List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				298DF6F02B88959600AFCEA0 /* Debug */,
@@ -650,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298DF6F22B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworksTests" */ = {
+		298DF6F22B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks-ListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				298DF6F32B88959600AFCEA0 /* Debug */,
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298DF6F52B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworksUITests" */ = {
+		298DF6F52B88959600AFCEA0 /* Build configuration list for PBXNativeTarget "AppleFrameworks-ListUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				298DF6F62B88959600AFCEA0 /* Debug */,
